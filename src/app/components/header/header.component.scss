@@ -1,0 +1,35 @@
+.main-header {
+    width: 100%;
+    z-index: 2;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9375rem 2.5rem 0.625rem 0.9375rem;
+}
+.menu-items {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.0625rem;
+    display: flex;
+    gap: 1.875rem;
+}
+a {
+    font-weight: 700;
+    color: #fefefe;
+    &:hover {
+        color: #007bff;
+    }
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    height: 2.5rem;
+    transition: transform 0.3s ease filter 0.3s ease;
+    &:hover {
+        transform: translateY(-3px);
+        filter: brightness(0) saturate(100%) invert(40%) sepia(99%) saturate(2000%) hue-rotate(200deg) brightness(95%) contrast(100%);
+    }
+}
