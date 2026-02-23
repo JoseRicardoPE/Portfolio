@@ -1,1 +1,30 @@
-<p>services works!</p>
+<div class="wrapper">
+    <div class="services-section">
+        <div class="services-text">
+            <p class="small-paragraph" id="section-services">What I Offer</p>
+            <h1 class="section-title">Services</h1>
+        </div>
+        <div class="services-grid">
+            <div class="service-item">
+                <h2 class="service-title">Custom Website Development</h2>
+                <div class="service-description">I create custom websites tailored to your specific needs and requirements.</div>
+            </div>
+            <div class="service-item">
+                <h2 class="service-title">Full Stack Application Development</h2>
+                <div class="service-description">I build full-stack web applications using modern technologies and frameworks.</div>
+            </div>
+            <div class="service-item">
+                <h2 class="service-title">Modern Blog Design</h2>
+                <div class="service-description">I create modern, responsive blog designs that are both visually appealing and highly functional.</div>
+            </div>
+            <div class="service-item">
+                <h2 class="service-title">E-commerce Solutions</h2>
+                <div class="service-description">I build scalable and secure e-commerce platforms tailored to your business needs.</div>
+            </div>
+        </div>
+        <app-button
+            [buttonText]="'Contact Me'"
+            (buttonAction)="navigate()"
+        ></app-button>
+    </div>
+</div>
