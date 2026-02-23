@@ -1,0 +1,67 @@
+.portfolio-section {
+    min-width: 37.5rem;
+    width: 60vw;
+}
+
+.portfolio-container {
+    width: 100%;
+    margin-top: 1.5%;
+    min-height: 25vh;
+    margin-bottom: 4%;
+}
+
+.portfolio-container {
+    display: flex;
+    width: 100%;
+}
+
+.photo-container {
+    flex: 0 0 60%;
+    position: relative;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    display: block;
+    z-index: 2;
+    border: 0.125rem solid white;
+}
+
+.photo-container:hover .photo-overlay {
+    opacity: 1;
+}
+
+.photo-container:hover img {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0.125rem solid #007bff;
+}
+
+.project-container {
+    flex: 1;
+    padding-left: 1.25rem;
+}
+
+#converter .project-container {
+    padding-left: 0px;
+    padding-right: 1.25rem;
+}
+
+.project-name {
+    font-family: "Roboto Mono", sans-serif;
+    color: #65ffd1;
+    font-size: 1.1875rem;
+}
+
+.project-title {
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 0.625rem;
+}
+
+.project-description {
+    font-size: 1.125rem;
+    color: #e2e2e2;
+    margin-bottom: 1.25rem;
+}
