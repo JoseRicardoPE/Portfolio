@@ -20,7 +20,7 @@ export class IntroductionComponent {
     public router: Router,
   ) {}
 
-  navigateToAboutMe() {
+  navigate() {
     this.router.navigate(['/about-me']);
   }
 }

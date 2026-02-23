@@ -7,13 +7,14 @@
             <p class="about-me-section-paragraph">{{ aboutMeParagraph2 }}</p>
             <p class="about-me-section-paragraph">{{ aboutMeParagraph3 }}</p>
         </div>
-        <app-button 
-            [buttonText]="buttonText" 
-            [buttonAction]="navigate"></app-button>
+        <div class="about-me-photo">
+            <img src="FotoJRPE2.png" alt="">
+            <div class="photo-overlay"></div>
+            <div class="offset-rectangle"></div>
+        </div>
     </div>
-    <div class="about-me-photo">
-        <img src="FotoJRPE2.png" alt="">
-        <div class="photo-overlay"></div>
-        <div class="offset-rectangle"></div>
-    </div>
+    <app-button 
+        [buttonText]="buttonText" 
+        (buttonAction)="navigate()">
+    </app-button>
 </div>
